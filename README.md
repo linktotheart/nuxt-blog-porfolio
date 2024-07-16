@@ -1,3 +1,5 @@
 # nuxt-blog-porfolio
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/linktotheart/nuxt-blog-porfolio)
+<!-- // write a description about nuxt and how to setup and get started  -->
+
+
