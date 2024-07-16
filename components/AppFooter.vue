@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="sb-component sb-component-footer bg-primary pt-32 pb-16 pr-4 pl-4 md:px-6 lg:px-8 text-primary-content">
+    class="sb-component sb-component-footer pt-32 pb-16 pr-4 pl-4 md:px-6 lg:px-8 text-primary-content">
     <div class="border-t-2 border-current mx-auto max-w-6xl">
       <div class="flex flex-col md:flex-row md:flex-wrap">
         <div class="mt-6 w-full">
