@@ -8,18 +8,18 @@
           class="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-8"
         >
           <div class="flex-1 w-full">
-            <h2 class="text-left">
+            <h2 class="text-left text-4xl md:text-5xl uppercase tracking-wider font-medium">
               Got an interesting project? Tell me more...💬
             </h2>
             <div class="sb-contact-section-form mt-12">
               <form
-                class="sb-component sb-component-block sb-component-form-block inline-block w-full"
+                class="inline-block w-full"
                 name="sign-up-form"
                 id="sign-up-form"
               >
                 <div class="grid sm:grid-cols-2 sm:gap-x-4">
-                  <input type="hidden" name="form-name" value="sign-up-form" />
-                  <div class="sb-form-control">
+                  <!-- <input type="hidden" name="form-name" value="sign-up-form" /> -->
+                  <div class="form-control">
                     <label
                       id="firstName-label"
                       class="sb-label sr-only"
@@ -35,7 +35,7 @@
                       placeholder="First Name"
                     />
                   </div>
-                  <div class="sb-form-control">
+                  <div class="form-control">
                     <label
                       id="lastName-label"
                       class="sb-label sr-only"
@@ -50,7 +50,7 @@
                       placeholder="Last Name"
                     />
                   </div>
-                  <div class="sb-form-control">
+                  <div class="form-control">
                     <label id="email-label" class="sb-label sr-only" for="email"
                       >Email</label
                     ><input
@@ -63,7 +63,7 @@
                       placeholder="Email"
                     />
                   </div>
-                  <div class="sb-form-control">
+                  <div class="form-control">
                     <label
                       id="address-label"
                       class="sb-label sr-only"
@@ -79,27 +79,13 @@
                       placeholder="Address"
                     />
                   </div>
-                  <div
-                    class="sb-form-control flex items-center sb-form-control-full"
-                  >
-                    <input
-                      id="updatesConsent"
-                      class="sb-checkbox"
-                      type="checkbox"
-                      name="updatesConsent"
-                      aria-labelledby="updatesConsent-label"
-                    /><label
-                      id="updatesConsent-label"
-                      class="sb-label"
-                      for="updatesConsent"
-                      >Sign me up to recieve updates</label
-                    >
-                  </div>
+                  
+                  <!-- // sign up checkbox  -->
                 </div>
                 <div class="mt-4 text-center">
                   <button
                     type="submit"
-                    class="sb-component sb-component-block sb-component-button sb-component-button-primary"
+                    class="button border-primary-content border-2 tracking-wider duration-200 transition-all px-7 py-4 bg-transparent text-xl"
                   >
                     Submit 🚀
                   </button>
@@ -117,4 +103,12 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.button:hover {
+  box-shadow: 0 6px 0 0 currentColor;
+  transform: translateY(-6px);
+}
+.form-control input {
+  @apply input mb-4 input-lg rounded-none bg-transparent border-2 border-primary-content font-semibold placeholder:text-primary-content placeholder:text-opacity-80; 
+}
+</style>

@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   googleFonts: {
     download: true,
     families: {
-      "Space Mono": "400..700",
+      // "Space Mono": "400..700",
       "Fira Mono": "400...700"
     },
     display: "swap"

@@ -9,7 +9,7 @@
             <li class="mr-8 mt-2">
               <router-link
                 aria-label=""
-                class="sb-component sb-component-block sb-component-link"
+                class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
                 to="/info/"
                 ><span>Info</span></router-link
               >
@@ -18,14 +18,14 @@
               <a
                 href="mailto:pulkit281098@gmail.com"
                 aria-label="Email Me"
-                class="sb-component sb-component-block sb-component-link"
+                class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
                 ><span>Contact</span></a
               >
             </li>
             <li class="mr-8 mt-2">
               <router-link
                 aria-label=""
-                class="sb-component sb-component-block sb-component-link"
+                class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
                 to="/blog/"
                 ><span>Blogs</span></router-link
               >
@@ -34,7 +34,7 @@
               <a
                 href="https://github.com/linktotheart"
                 aria-label="Netlify templates"
-                class="sb-component sb-component-block sb-component-link"
+                class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
                 ><span>GitHub</span></a
               >
             </li>
@@ -42,7 +42,7 @@
               <a
                 href="https://codepen.io/pulkit302"
                 aria-label="Netlify templates"
-                class="sb-component sb-component-block sb-component-link"
+                class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
                 ><span>Codepen</span></a
               >
             </li>

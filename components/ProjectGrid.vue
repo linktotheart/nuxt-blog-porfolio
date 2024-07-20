@@ -6,7 +6,7 @@
   </div>
   <div class="flex flex-wrap items-center mt-10 justify-end">
     <a
-      class="sb-component sb-component-block sb-component-link uppercase text-lg my-2 mx-2 lg:whitespace-nowrap"
+      class="sb-component sb-component-block tracking-wider sb-component-link uppercase text-lg my-2 mx-2 lg:whitespace-nowrap"
       href="/projects/"
       >See all projects
     </a>
