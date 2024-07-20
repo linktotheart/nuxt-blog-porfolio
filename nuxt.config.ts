@@ -5,8 +5,7 @@ export default defineNuxtConfig({
     download: true,
     families: {
       "Space Mono": "400..700",
-      "JetBrains Mono": "400,600,800",
-      "Fira Mono": "400,600,800"
+      "Fira Mono": "400...700"
     },
     display: "swap"
   },

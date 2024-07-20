@@ -7,7 +7,7 @@
 </template>
 <style>
 body {
-  font-family: "Fira Mono", monospace;
+  font-family: "Space Mono", monospace;
 }
 .page-enter-active,
 .page-leave-active {

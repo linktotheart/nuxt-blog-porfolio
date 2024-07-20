@@ -1,6 +1,6 @@
 <template>
   <div
-    class="sb-component sb-component-section sb-component-hero-section colors-f flex flex-col justify-center min-h-0 mt-0 mb-0 ml-0 mr-0 pt-32 pb-40 pl-4 pr-4"
+    class="sb-component sb-component-section sb-component-hero-section colors-f flex flex-col justify-center min-h-0 md:mt-16 md:mb-24 ml-0 mr-0 pt-32 pb-40 pl-4 pr-4"
   >
     <div class="flex w-full justify-center">
       <div class="relative w-full max-w-7xl">
