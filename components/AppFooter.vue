@@ -10,8 +10,8 @@
               <router-link
                 aria-label=""
                 class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
-                to="/info/"
-                ><span>Info</span></router-link
+                to="/about"
+                ><span>About</span></router-link
               >
             </li>
             <li class="mr-8 mt-2">
@@ -26,7 +26,7 @@
               <router-link
                 aria-label=""
                 class="sb-component sb-component-block sb-component-link uppercase font-medium tracking-wider"
-                to="/blog/"
+                to="/blogs/"
                 ><span>Blogs</span></router-link
               >
             </li>

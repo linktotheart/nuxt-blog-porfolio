@@ -1,5 +1,5 @@
 <template>
-  <a class="sb-post-feed-item block group" href="/blog/post-six/"
+  <a class="sb-post-feed-item block group" href="/blogs/"
     ><article class="border-b border-current pb-10 md:pb-12 md:px-4">
       <div class="md:flex md:items-center">
         <div class="md:grow md:ml-12">

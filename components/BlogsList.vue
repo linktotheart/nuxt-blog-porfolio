@@ -16,7 +16,7 @@
     <div class="flex flex-wrap items-center mt-10 justify-end">
       <router-link
         class="sb-component sb-component-block tracking-wider sb-component-link uppercase text-lg my-2 mx-2 lg:whitespace-nowrap"
-        to="/projects"
+        to="/blogs"
         >See all posts
       </router-link>
     </div>
