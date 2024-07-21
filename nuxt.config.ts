@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   googleFonts: {
     download: true,
     families: {
-      "Fira Mono": "400...700"
+      "Fira Mono": [400, 700],
     },
     display: "swap"
   },
