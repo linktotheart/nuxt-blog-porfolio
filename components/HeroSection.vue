@@ -8,11 +8,11 @@
           class="flex flex-col-reverse lg:flex-row-reverse items-center space-y-8 space-y-reverse lg:space-y-0 lg:space-x-8 lg:space-x-reverse"
         >
           <div class="flex-1 w-full">
-            <h2 class="h1 uppercase text-left text-5xl font-bold">
+            <h2 class="h1 uppercase text-left text-5xl font-bold ">
               Hi, I’m a full-stack developer, digital artist, consultant and a bunch of other
               impressive tech words.
             </h2>
-            <p class="text-xl sm:text-2xl text-left mt-4">
+            <p class="text-xl sm:text-2xl tracking-wider text-left mt-4">
               This is my info—I’m sharing it all this with ya’ll to impress you
               with all the hard work I’ve done in the past few years. Once
               you’re impressed, you can continue to scroll down to see more

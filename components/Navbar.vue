@@ -5,8 +5,8 @@
       <a href="#main" class="sr-only">Skip to main content</a>
       <div class="flex items-stretch relative">
         <div class="border-r border-current flex items-center">
-          <router-link class="sb-header-logo flex items-center h-full p-4" to="/"><span
-              class="text-base tracking-widest uppercase">Pulkit Singh</span></router-link>
+          <router-link class="sb-header-logo flex items-center h-full py-4 px-6" to="/"><span
+              class="text-base tracking-widest uppercase">Pulkit</span></router-link>
         </div>
         <ul class="hidden lg:flex ml-auto border-l border-current divide-x divide-current">
           <li class="inline-flex items-stretch" v-for="nav in navLinks" :key="nav.name">
@@ -41,8 +41,8 @@
               <div class="flex flex-col min-h-full">
                 <div class="border-b border-current flex items-stretch justify-between">
                   <div class="border-r border-current flex items-center">
-                    <router-link class="sb-header-logo flex items-center h-full p-4" to="/"><span
-                        class="text-base tracking-widest uppercase">Pulkit Singh</span></router-link>
+                    <router-link class="sb-header-logo flex items-center h-full py-4 px-6" to="/"><span
+                        class="text-base tracking-widest uppercase">Pulkit</span></router-link>
                   </div>
                   <div class="border-l border-current">
                     <button aria-label="Close Menu" class="h-10 min-h-full p-4 focus:outline-none" @click="togglemenu">
