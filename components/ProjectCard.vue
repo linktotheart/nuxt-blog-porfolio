@@ -1,5 +1,5 @@
 <template>
-  <a class="sb-project-feed-item block group" href="/projects/project-two/"
+  <a class="sb-project-feed-item block group" href="/projects"
     ><article class="border-b border-current pb-10 max-w-3xl">
       <div class="h-0 w-full mb-6 pt-2/3 relative overflow-hidden">
         <img
