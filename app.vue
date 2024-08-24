@@ -7,7 +7,7 @@
 </template>
 <style>
 body {
-  font-family: "Fira Mono", monospace;
+  font-family: "Space Mono", monospace;
 }
 .page-enter-active,
 .page-leave-active {
@@ -26,7 +26,7 @@ body {
 ::-webkit-scrollbar
 {
   @apply w-2.5;
-  @apply bg-primary
+  @apply bg-inherit
 }
 
 ::-webkit-scrollbar-thumb

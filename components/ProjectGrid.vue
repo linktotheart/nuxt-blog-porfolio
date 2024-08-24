@@ -1,8 +1,6 @@
 <template>
   <div class="grid gap-y-12 md:grid-cols-3 gap-x-6 lg:gap-x-8 mt-12">
-    <ProjectCard />
-    <ProjectCard />
-    <ProjectCard />
+    <ProjectCard v-for="project in projects" :key="project.title" :details="project" />
   </div>
   <div class="flex flex-wrap items-center mt-10 justify-end">
     <a
@@ -13,8 +11,13 @@
   </div>
 </template>
 
-<script>
-export default {};
+<script setup>
+defineProps({
+  projects: {
+    type: Array,
+    required: true
+  }
+});
 </script>
 
 <style></style>

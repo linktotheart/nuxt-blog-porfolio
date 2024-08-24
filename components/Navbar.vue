@@ -6,7 +6,7 @@
       <div class="flex items-stretch relative">
         <div class="border-r border-current flex items-center">
           <router-link class="sb-header-logo flex items-center h-full py-4 px-6" to="/"><span
-              class="text-base tracking-widest uppercase">Pulkit</span></router-link>
+              class="text-base tracking-widest font-semibold uppercase">Pulkit</span></router-link>
         </div>
         <ul class="hidden lg:flex ml-auto border-l border-current divide-x divide-current">
           <li class="inline-flex items-stretch" v-for="nav in navLinks" :key="nav.name">
