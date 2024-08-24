@@ -1,19 +1,18 @@
-export default async function useFetch(url) {
-  const data = (null);
-  const error = (null);
-  const loading = (true);
+import { ref } from 'vue'
+
+export async function useFetchBlogs(url) {
+  const data = ref(null)
+  const error = ref(null)
+  const loading = ref(true)
 
   try {
-    let res = await fetch(url);
-    if (!res.ok) {
-      throw Error("Data not available");
-    }
-    data = JSON.parse(JSON.stringify(res));
-  } catch (err) {
-    error = err.message;
+    data.value = await fetch(url).then(res => res.json())
+  } catch(err) {
+    error.value = err
   } finally {
-    loading = false;
+    loading.value = false
   }
 
-  return { data, error, loading };
-}
+  return { data, loading, error }
+} 
+

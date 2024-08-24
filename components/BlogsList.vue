@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="flex flex-wrap items-center mt-10 justify-end">
+    <div class="flex flex-wrap items-center mt-10 justify-end" v-if="showSeeAll">
       <router-link
         class="sb-component sb-component-block tracking-wider sb-component-link uppercase text-lg my-2 mx-2 lg:whitespace-nowrap"
         to="/blogs"
@@ -36,6 +36,10 @@ const props = defineProps({
   numberOfBlogs: {
     type: Number,
     default: 3
+  },
+  showSeeAll: {
+    type: Boolean,
+    default: true
   }
 });
 
